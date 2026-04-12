@@ -1,0 +1,9 @@
+{
+  "id": "DromaDiag",
+  "title": "DromaDiag: Modding Diagnostic Tool",
+  "version": "1.0.1",
+  "author": "Mur",
+  "description": "A low-level diagnostic toolkit for Caves of Qud modders. Dump type hierarchies, inspect live MonoBehaviour fields, audit Harmony patches, and extract precise RectTransform layout data directly from the game engine.\n\nUsage: Use the 'Wish' command in-game (e.g., 'dromadiag:harmony').\nOutput: AppData/LocalLow/Freehold Games/CavesOfQud/DromaDiag.txt",
+  "requires": [],
+  "tags": ["Dev", "Debug", "Tools", "UI"]
+}
