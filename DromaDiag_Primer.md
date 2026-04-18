@@ -16,7 +16,7 @@ DromaDiag is one half of a two-tool diagnostic suite. Its companion tool, Dromad
 
 ## How To Invoke Commands
 
-Commands are entered through the Caves of Qud wish interface, opened with the `[` key in-game.
+Commands are entered through the Caves of Qud wish interface, opened with `Ctrl + W` in-game.
 
 The syntax is always:
 ```
