@@ -55,7 +55,7 @@ If DromadSpy is not found, DromaDiag will tell you exactly which paths it checke
 
 For a typical Steam install:
 ```
-H:\SteamLibrary\steamapps\common\Caves of Qud\Modding\DromadSpy\
+steamapps\common\Caves of Qud\Modding\DromadSpy\
 ```
 
 **Build from source** (requires the [.NET SDK](https://dotnet.microsoft.com/download)):
