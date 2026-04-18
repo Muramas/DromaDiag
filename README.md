@@ -25,13 +25,13 @@ Output is written to `DromaDiag.txt` in your save folder and **copied to your cl
 
 ## Installation
 
-### Option A — Steam Workshop
+### Download from Steam Workshop
 
-*(Workshop link coming soon)*
+[DromaDiag](https://steamcommunity.com/sharedfiles/filedetails/?id=3692727013)
 
 ### Option B — Manual
 
-Copy `DromaDiag.cs` into your mod folder:
+Copy `DromaDiag.cs` and `ModInfo.json` into your mod folder:
 
 ```
 %APPDATA%\..\LocalLow\Freehold Games\CavesOfQud\Mods\DromaDiag\
