@@ -748,9 +748,9 @@ The decompiled C# shows the full if-chain clearly: `FloodAutoexplore` is only ca
 
 ---
 
-## Common Patterns For AI-Assisted Modding
+## Common Patterns For DromaDiag Modding
 
-When working with an AI assistant on a Caves of Qud mod, the recommended workflow is:
+When working with a mod on a Caves of Qud mod, the recommended workflow is:
 
 **Step 1 — Discover:** Use `dromadiag:search` with relevant keywords to find what types and members exist in the area you're working in.
 
@@ -765,8 +765,6 @@ When working with an AI assistant on a Caves of Qud mod, the recommended workflo
 **Step 6 — Read method logic:** When you need to understand what a method actually does before patching it, use `dromadiag:decompile` to get full C# source, or `dromadiag:refs` to get a flat inventory of everything it touches. Both require DromadSpy. Paste the output directly into your AI conversation — the decompiled source gives the AI exact, confirmed method logic to work from rather than guesses from documentation.
 
 **Step 7 — Inspect live state:** Switch to DromadState (the companion tool) to verify that your mod's changes are actually having the intended effect at runtime.
-
-**What to pass to an AI:** Paste the contents of DromaDiag.txt directly into your conversation. The AI can read the type and method information and use it to write correct code without guessing. Always run the relevant `dromadiag:type` commands for any types your mod will interact with before asking the AI to write code — this ensures all method signatures, field names, and type relationships are confirmed from the actual assembly rather than assumed from documentation or memory.
 
 ---
 
