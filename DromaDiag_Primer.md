@@ -1,4 +1,4 @@
-# DromaDiag — AI Primer & Reference Guide
+# DromaDiag — Primer & Reference Guide
 
 ## What Is DromaDiag?
 
