@@ -511,7 +511,7 @@ public static void FindAutoexploreStep(bool Force, out string Step, out bool Bla
 **How it works:** DromaDiag locates `Assembly-CSharp.dll` on disk via `Assembly.Location`, then launches DromadSpy.exe as a child process with the dll path, type name, and method name as arguments. DromadSpy runs ICSharpCode.Decompiler out-of-process — this sidesteps Unity/Mono runtime constraints that would prevent the decompiler from loading inside the game. Stdout is captured and written to DromaDiag.txt.
 
 **When to use this command:**
-- You want to read method logic in C# rather than IL — faster to understand, easier to share with an AI assistant
+- You want to read method logic in C# rather than IL — faster to understand
 - `dromadiag:body` output is ambiguous and you want the decompiler to resolve the intent
 - You are writing a patch and want to see the full method body including all branches before deciding where to inject
 - You are debugging an unexpected interaction and want to read exactly what a method does
