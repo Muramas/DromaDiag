@@ -728,18 +728,6 @@ The decompiled C# shows the full if-chain clearly: `FloodAutoexplore` is only ca
 
 ---
 
-### Example 9: Passing Decompiled Output To An AI (v1.1.0)
-
-You want to write a Harmony postfix on `FindAutoexploreStep` that adds a custom autoexplore target. You run:
-
-```
-dromadiag:decompile AutoAct FindAutoexploreStep
-```
-
-The output is automatically copied to your clipboard. You paste it directly into your AI conversation and ask for a postfix that appends your custom target to the existing logic. The AI can read the exact method body — real variable names, correct types, actual control flow — and write patch code that is accurate to the actual assembly rather than guessed from documentation.
-
----
-
 ## Key Behaviours To Know
 
 **Assembly scope:** DromaDiag only inspects `Assembly-CSharp` — the main game assembly. It does not inspect Unity engine assemblies, third-party libraries, or other mod assemblies. If a type lives in `UnityEngine` or a library DLL, `dromadiag:find`, `dromadiag:search`, `dromadiag:callers`, and `dromadiag:body` will not find it.
