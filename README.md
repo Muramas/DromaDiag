@@ -286,20 +286,6 @@ dromadiag:decompile AutoAct FindAutoexploreStep, dromadiag:refs AutoAct FindAuto
 
 ---
 
-## Repository layout
-
-```
-DromaDiag/
-  DromaDiag.cs        ← the mod — copy this into your Mods folder
-DromadSpy/
-  DromadSpy.cs        ← companion decompiler tool source
-  DromadSpy.csproj    ← build with: dotnet publish -c Release
-CHANGELOG.md
-README.md
-```
-
----
-
 ## Requirements
 
 - Caves of Qud (any recent version)
